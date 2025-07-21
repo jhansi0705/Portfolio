@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jhansi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Jhansi Vuyyuri</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Jhansi</h2>
+    <p>Final-year Computer Science Student | Web Developer | Seeking Software Roles</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m passionate about web development and Software tools. I’ve worked on full-stack projects, and done internships with AWS, Google, and IBM.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>DocSpot - Appointment Booking</h3>
+      <p>A full-stack app for booking doctor appointments with authentication & service management.</p>
+      <span>Tech: HTML, CSS, JavaScript, Python, SQL</span>
+      <h1>Build Personal Portfolio</h1>
+      <span>Tech:HTML,CSS,JavaScript</span>
+    </div>
+    <!-- Add more project cards here -->
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jhansi Vuyyuri | <a href="https://github.com/jhansi0705" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jhansi-vuyyuri-48a8b0289" target="_blank">linkedlin</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
